@@ -1,0 +1,3 @@
+stepDefinitions\SauceDemoHomeSteps.class
+driver\DriverManager.class
+pageObjectModels\SauceDemoHomePage.class
