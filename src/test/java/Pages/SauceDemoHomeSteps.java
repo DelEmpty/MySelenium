@@ -1,4 +1,4 @@
-package stepDefinitions;
+package Pages;
 
 import driver.DriverManager;
 import io.cucumber.java.en.*;
