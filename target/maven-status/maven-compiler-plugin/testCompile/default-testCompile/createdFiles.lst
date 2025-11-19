@@ -1,3 +1,5 @@
+pageObjectModels\SauceDemoHomePage.class
+runners\RunCucumberTest.class
 stepDefinitions\SauceDemoHomeSteps.class
 driver\DriverManager.class
-pageObjectModels\SauceDemoHomePage.class
+hooks\Hooks.class
