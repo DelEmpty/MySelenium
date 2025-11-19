@@ -31,7 +31,7 @@ public class SauceDemoHomePage {
     @FindBy(id = "password")
     private WebElement password;
 
-    @FindBy(id = "login_button")
+    @FindBy(id = "login-button")
     private WebElement loginButton;
 
     @FindBy(className = "error-message-container")
