@@ -48,10 +48,10 @@ public class UnirestPetstoreTest {
     public void createPet() {
         // 1. Crea l'oggetto Pet usando il Builder di Lombok (molto più leggibile!)
         Pet myPet = Pet.builder()
-                .id(39)
+                .identificativo(39)
                 .name("HatsuneMiku")
                 .category(new Category(1, "Gatti"))
-                .photoUrls(Collections.singletonList("http://example.com/fido.jpg"))
+                .photoUrls(Collections.singletonList("https://example.com/fido.jpg"))
                 .tags(Arrays.asList(new Tag(1, "vocaloid"), new Tag(2, "addestrato")))
                 .status("available")
                 .build();

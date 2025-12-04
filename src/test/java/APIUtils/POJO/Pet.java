@@ -1,5 +1,6 @@
 package APIUtils.POJO;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
@@ -12,7 +13,8 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class Pet {
-    private long id;
+    @JsonProperty("id")
+    private long identificativo;
     private Category category;
     private String name;
     private List<String> photoUrls;
