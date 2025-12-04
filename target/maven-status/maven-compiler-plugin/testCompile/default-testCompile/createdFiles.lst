@@ -1,5 +1,10 @@
-pageObjectModels\SauceDemoHomePage.class
+Pages\SauceDemoHomeSteps.class
+APIUtils\UnirestPetstoreTest.class
+APIUtils\models\Category.class
 runners\RunCucumberTest.class
-stepDefinitions\SauceDemoHomeSteps.class
+APIUtils\models\Pet$PetBuilder.class
+pageObjectModels\SauceDemoHomePage.class
+APIUtils\models\Tag.class
+APIUtils\models\Pet.class
 driver\DriverManager.class
 hooks\Hooks.class
