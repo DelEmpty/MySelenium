@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.24</aspectj.version>
         <allure.version>2.29.0</allure.version>
+        <poi.version>5.2.5</poi.version>
     </properties>
 
     <dependencyManagement>
@@ -36,11 +37,33 @@
             <version>4.38.0</version>
         </dependency>
 
+        <!-- Google Gson (the previous core impl) -->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-object-mappers-gson</artifactId>
+            <version>4.2.9</version>
+        </dependency>
+
+        <!-- Jackson -->
+        <!-- https://mvnrepository.com/artifact/com.konghq/unirest-objectmapper-jackson -->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-objectmapper-jackson</artifactId>
+            <version>4.2.9</version>
+        </dependency>
+
         <!-- Cucumber Java -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>7.31.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.20.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -100,12 +123,19 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>5.2.5</version>
+            <version>${poi.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>5.2.5</version>
+            <version>${poi.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.konghq/unirest-java-core -->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java-core</artifactId>
+            <version>4.6.0</version>
         </dependency>
     </dependencies>
 

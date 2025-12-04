@@ -9,3 +9,4 @@ Feature: Goes to the homepage and logs in
     And inserisco password "secret_sauce"
     And clicco sul pulsante login
     Then vengo reindirizzato alla pagina Products
+
